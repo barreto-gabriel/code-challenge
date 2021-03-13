@@ -14,13 +14,13 @@ describe('<TemperatureTable />', () => {
          ]
 
     it('renders all product details', () => {
-            render(<TemperatureTable items={fakeItems}/>)
-            expect(screen.getByText('Product')).toBeTruthy()
-            expect(screen.getByText('IPA')).toBeTruthy()
-            expect(screen.getByText('Temperature')).toBeTruthy()
-            expect(screen.getByText('2')).toBeTruthy()
-            expect(screen.getByText('Status')).toBeTruthy()
-            expect(screen.getByText('too low')).toBeTruthy()
+        render(<TemperatureTable items={fakeItems}/>)
+        expect(screen.getByText('Product')).toBeTruthy()
+        expect(screen.getByText('IPA')).toBeTruthy()
+        expect(screen.getByText('Temperature')).toBeTruthy()
+        expect(screen.getByText('2')).toBeTruthy()
+        expect(screen.getByText('Status')).toBeTruthy()
+        expect(screen.getByText('too low')).toBeTruthy()
         });
 
      it('renders too low', () => {
