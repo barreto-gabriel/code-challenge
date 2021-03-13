@@ -18,8 +18,8 @@ Please refer to the provided document for the code challenge requirements.
 # Relevant Information
 
 #### Highlights of your improvements (tests and others you choose)
-I have written tests for App and TemperatureTable components. I tried to cover the most important business rules, taking in consideration temperature rules, displaying important information on the screen anc integration with the Temperature API.
+I have written tests for App and TemperatureTable components. I tried to cover the most important business rules, taking in consideration temperature rules, displaying important information on the screen and integration with the Temperature API.
 #### Future improvements
-Did not have enough time to improve the TemperatureTable integration test, so it is taking in consideration all 6 products in the data file, when it is not necessary, I believe also mocking this integration would have been better.
+Did not have enough time to improve the TemperatureTable integration test, so it is taking in consideration all 6 products in the data file, when it is not necessary, I believe also mocking this integration would have been better. Also taking a closer look to places to improve code quality and test coverage if I had more time.
 #### Approach
-Tried to cover the most relevant scenarios to improve test coverage, and also refactoring to make code simpler and more readle. 
+Tried to cover the most relevant scenarios to improve test coverage, and also refactoring to make code simpler and more readle. Tried to do it doing small commits and thinking in baby steps
